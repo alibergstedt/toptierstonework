@@ -8,10 +8,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Top Tier Stonework
+          Top Tier Stonework Coming Soon
         </p>
         <p>
-          Coming soon
+          Contact us
         </p>
       </header>
     </div>
