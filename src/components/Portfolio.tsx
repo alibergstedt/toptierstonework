@@ -10,9 +10,14 @@ import Image3 from '../images/projects/franklin-monument-tuck-pointing-after.jpe
 // Portfolio Content
 const content = [
 	{ 
-		thumb: Image1, 
-		LightImg: Image1,
-		title: "Failing chimney in need of repair",
+		thumb: Image4,
+		LightImg: Image4,
+		title: "Before before of stone monument in need of restoration",
+	},
+	{ 
+		thumb: Image5,
+		LightImg: Image5,
+		title: "Picture of stone monument after full tuck pointing and repointing restoration",
 	},
 	{ 
 		thumb: Image2,
@@ -25,14 +30,9 @@ const content = [
 		title: "Chimney tuck pointed close up",
 	},
 	{ 
-		thumb: Image4,
-		LightImg: Image4,
-		title: "Before before of stone monument in need of restoration",
-	},
-	{ 
-		thumb: Image5,
-		LightImg: Image5,
-		title: "Picture of stone monument after full tuck pointing and repointing restoration",
+		thumb: Image1, 
+		LightImg: Image1,
+		title: "Failing chimney in need of repair",
 	},
 ]
 
