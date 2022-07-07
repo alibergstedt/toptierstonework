@@ -1,0 +1,36 @@
+//variables
+$font-stack: 'CerebriSans', 'Roboto', 'Oxygen',
+'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+sans-serif;
+$primary-font-color: #505050;
+$body-color: white;
+$body-font-size: 1em;
+$link-color: #616163;
+
+// colors
+$black-100: #232326;
+$black-200: #44444b;
+$black-300: #d0ccd0;
+$black-400: #303030;
+
+$red-100: #8e2823;
+$red-200: #840701;
+$red-300: #da0911;
+$red-400: #f49b96;
+
+$gray-100: #616163;
+$gray-200: #d0ccd0;
+$gray-300: #dddde1;
+$gray-400: #f2f2f4;
+
+$orange-100: #c06019;
+$orange-200: #f07418;
+$orange-300: #ffbd8c;
+$orange-400: #fff2e8;
+
+// mixins
+%links {
+  color: $link-color;
+  text-decoration: none;
+  outline: 0 none;
+}

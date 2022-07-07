@@ -1,0 +1,192 @@
+.hero-img {
+    background-image: url('../images/stone-house.jpg');
+    animation: zoom 20s;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 70vh;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+.sub-title {
+    background-color: $red-200;
+    text-transform: uppercase;
+    line-height: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 8px 15px;
+    display: inline-block;
+    margin: 0 0 25px;
+}
+
+.sub-heading {
+    text-transform: uppercase;
+    line-height: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 0;
+    display: inline-block;
+    color: $red-300;
+}
+
+.outline {
+    text-transform: uppercase;
+    line-height: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 15px;
+    display: inline-block;
+    margin: 0 0 25px;
+    border: 2px solid $red-300;
+    color: $red-300;
+}
+
+.hero-content {
+    padding: 0 100px;
+    height: 70vh;
+    width: 100%;
+
+    div > * {
+        color: white;
+    }
+}
+
+.uvp {
+    justify-content: center;
+    padding: 3em;
+    text-align: left;
+
+    &.dark {
+        background-color: #fd5d14;
+        color: white;
+
+        & h2, h3, h4, h5 {
+            color: white;
+        }
+    }
+}
+
+.uvp-card {
+    text-align: center;
+    background-color: $red-200;
+    border-radius: 0.5em;
+    color: white;
+    padding: 1em;
+    margin: 0.5em;
+
+    & h2, h3, h4, h5 {
+        color: white;
+    }
+}
+
+.services-box {
+    padding: 4em 2em 1em 2em
+}
+
+.projects, .services-box {
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-us-wrapper, .projects-wrapper {
+    margin: 0;
+    padding: 5em;
+    background-color: #f7f7f7;
+}
+
+.contact-us {
+    max-width: 1140px;
+    background-color: white;
+    text-align: left;
+    margin: 0 auto;
+    box-shadow: 0 10px 40px 0 rgb(0 0 0 / 10%);
+}
+
+.contact-us-section {
+    padding: 2em;
+}
+
+.contact-icon-box {
+    margin: 1em;
+    border: 2px solid hsla(0,0%,100%,.3);
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.contact-icon-box .icon {
+    background: $orange-200;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding: 6px;
+    margin-right: 10px;
+}
+
+.contact-us textarea.form-control {
+    height: 150px;
+}
+
+.services-box .tab-content,
+.services-box .nav-item {
+    text-align: left;
+}
+
+.services-box {
+    transition: all 1s ease-in;
+    margin: 1em auto 5em auto;
+}
+
+.services-box .nav-pills {
+    border-right: 1px solid $gray-400;
+}
+
+.services-box .nav-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding-right: 30px;
+}
+
+.services-box .nav-link,
+.services-box .nav-link.active {
+    color: $primary-font-color;
+    padding: 10px 15px;
+    border-bottom: 1px solid $gray-400;
+}
+
+.services-box .nav-link.active, .services-box .show>.nav-link {
+    color: $orange-200;
+    background-color: #fff;
+}
+
+.services-box img {
+    max-height: 275px;
+}
+
+#gallery > div {
+    height: 40vh;
+    flex-grow: 1;
+}
+
+#gallery > div > img,
+#gallery > div > a > img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+// #gallery > div:last-child {
+//     flex-grow: 10;
+//   }
