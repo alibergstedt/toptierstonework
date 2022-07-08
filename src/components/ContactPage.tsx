@@ -30,7 +30,7 @@ const ContactPage = () => {
         });
     }, []);
 
-    return <div className='contact-us-wrapper'>
+    return <div className='contact-us-wrapper p-md-5'>
     <div className="contact-us row" id='contact'>
     <div className='col-lg-8 col-md-12 contact-us-section'>
         <div className='sub-heading'>Get In Touch</div>

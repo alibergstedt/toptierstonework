@@ -8,7 +8,7 @@ const UVP = () => {
     };
 
     return <div className="uvp d-md-flex d-sm-block flex-md-column flex-lg-row flex-sm-wrap flex-lg-nowrap" id='aboutUs'>
-        <div style={{'padding':'3em'}}>
+        <div className="p-md-5">
             <h3>Why Choose Us for Your Next Project?</h3>
             <p>At Top Tier, we take pride in our work.  When hiring us, not only are you guaranteed a
             quality finished product that will last you years, but our licensed and bonded professionals are courteous,
@@ -18,14 +18,14 @@ const UVP = () => {
             <a href="#" className="btn radius-sm" onClick={handleClick}>Contact Us</a>
         </div>
         <div className="row justify-content-center">
-            <div className="uvp-card col-5">
+            <div className="uvp-card col-md-5 col-sm-12 pt-sm-3">
                 <div><FaAward size={42} className="m-3" /></div>
                 <div>
                     <h5>Top Tier Professionals</h5>
                     <p>Licensed and bonded quality masonry experts</p>
                 </div>
             </div>
-            <div className="uvp-card col-5">
+            <div className="uvp-card col-md-5 col-sm-12">
                 <div><FaMapMarkerAlt size={40} className="m-3" /></div>
                 <div>
                     <h5>Locally Owned</h5>
@@ -34,7 +34,7 @@ const UVP = () => {
                     </p>
                 </div>
             </div>
-            <div className="uvp-card col-5">
+            <div className="uvp-card col-md-5 col-sm-12">
                 <div><FaCrown size={40} className="m-3" /></div>
                 <div>
                     <h5>Quality Materials</h5>
@@ -43,7 +43,7 @@ const UVP = () => {
                     </p>
                 </div>
             </div>
-            <div className="uvp-card col-5">
+            <div className="uvp-card col-md-5 col-sm-12">
                 <div><FaCheckCircle size={40} className="m-3" /></div>
                 <div>
                     <h5>Satisfaction Guaranteed</h5>

@@ -48,11 +48,11 @@ const Portfolio = () => {
 	}, [show]);
 
 
-    return <div className='projects-wrapper' id='recent'>
+    return <div className='projects-wrapper p-md-5' id='recent'>
 		<div className='projects'>
     <div className='outline'>Projects</div>
     <h3 className="mb-0">Our Recent Work</h3>
-    <p style={{'padding':'0 2em 2em 2em'}} className="w-75 m-auto">Click on the pictures below in our project gallery to enlarge and view our most recent 
+    <p className="m-auto p-3 w-md-75">Click on the pictures below in our project gallery to enlarge and view our most recent 
     masonry projects from some of our happy customers.</p>
 
 	<div className='d-flex flex-wrap' id='gallery'>

@@ -46,7 +46,7 @@
 }
 
 .hero-content {
-    padding: 0 100px;
+    padding: 0 1em;
     height: 70vh;
     width: 100%;
 
@@ -84,7 +84,7 @@
 }
 
 .services-box {
-    padding: 4em 2em 1em 2em
+    padding: 1em
 }
 
 .projects, .services-box {
@@ -95,7 +95,7 @@
 
 .contact-us-wrapper, .projects-wrapper {
     margin: 0;
-    padding: 5em;
+    padding: 1em;
     background-color: #f7f7f7;
 }
 
@@ -143,7 +143,7 @@
 
 .services-box {
     transition: all 1s ease-in;
-    margin: 1em auto 5em auto;
+    margin: 1em auto;
 }
 
 .services-box .nav-pills {
@@ -153,7 +153,6 @@
 .services-box .nav-item {
     cursor: pointer;
     margin-bottom: 10px;
-    padding-right: 30px;
 }
 
 .services-box .nav-link,

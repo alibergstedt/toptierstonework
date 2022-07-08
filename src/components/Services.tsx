@@ -8,16 +8,16 @@ import PowerWashingImg from '../images/pressure-power-washing-brick.jpg';
 import StoneFirePit from '../images/stone-fire-pit.jpg';
 
 const Services = () => {
-    return <div className='services-box' id='services'>
+    return <div className='services-box p-md-5 mb-md-4' id='services'>
         <div className='outline'>Services</div>
         <h3 className="mb-0">Our Services</h3>
-        <p style={{'padding':'0 2em 3em 2em'}} className="w-75 m-auto">Top Tier is proud to offer full masonry services
+        <p className="m-auto p-3 pb-md-5 w-md-75">Top Tier is proud to offer full masonry services
         to our customers.  Click on each service to learn a little more about what we offer and the benefits of maintaining
         your beautiful brick and stonework.</p>
         <Tab.Container id="left-tabs-example" defaultActiveKey="one">
             <Row>
             <Col sm={3}>
-                <Nav variant="pills" className="flex-column">
+                <Nav variant="pills" className="flex-md-column flex-sm-row">
                 <Nav.Item>
                     <Nav.Link eventKey="one"><FaAngleRight className='me-1' />Stone Installation</Nav.Link>
                 </Nav.Item>

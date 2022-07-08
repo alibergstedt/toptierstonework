@@ -104,3 +104,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .bg-primary {
   background-color: $red-200 !important;
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+   .text-sm-left {
+    text-align: left !important;
+   }
+   .text-sm-center {
+    text-align: center !important;
+   }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  .w-md-75 {
+      width: 75%;
+  }
+  .text-md-left {
+    text-align: left !important;
+   }
+   .text-md-center {
+    text-align: center !important;
+   }
+}

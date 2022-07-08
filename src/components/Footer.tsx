@@ -5,14 +5,14 @@ import LogoWhite from '../images/logo-white.png';
 
 const Footer = () => {
     return <footer>
-    <div className="footer-container">
+    <div className="footer-container text-center text-md-left">
     <div className="footer-top bt0">
         <div className="container">
             <div className="row">
                 <div className="col-12 col-md-5">
                     <div className="widget widget_info">
                         <img src={LogoWhite} />
-                        <div className="my-3 me-4 pe-3">Full Masonry Services. Specializing in stone installation, chiney repair,
+                        <div className="my-3 me-md-4 pe-md-3">Full Masonry Services. Specializing in stone installation, chiney repair,
                             tuckponting, and more.
                         </div>
                         <div className="d-inline-flex ft-social-bx">
