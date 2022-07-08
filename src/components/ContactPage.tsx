@@ -46,7 +46,7 @@ const ContactPage = () => {
                 <Form.Control name='from_email' type='email' placeholder='Enter your email address' />
             </FloatingLabel>
             <FloatingLabel aria-required controlId='formPhone' label='Phone Number' className='mb-3'>
-                <Form.Control name='phone' type='phone' placeholder='Enter your phone number' />
+                <Form.Control pattern='[0-9]' name='phone' type='number' placeholder='Enter your phone number' />
             </FloatingLabel>
             {/* <Form.Group controlId='formImage' className='mb-3'>
                 <Form.Label>Upload an image <span className='text-muted'>(optional)</span></Form.Label>
