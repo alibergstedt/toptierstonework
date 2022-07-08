@@ -44,7 +44,7 @@ const Footer = () => {
                         </div>
                         <div><Link to="#" onClick={(e) => handleClick(e, 'services')}>Services</Link>
                         </div>
-                        <div><Link to="#" className="btn radius-sm" onClick={(e) => handleClick(e, 'contact')}>Contact Us</Link></div>
+                        <div><Link to="#" onClick={(e) => handleClick(e, 'contact')}>Contact Us</Link></div>
                     </div>
                 </div>
             </div>
