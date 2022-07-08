@@ -2,8 +2,13 @@ import React from "react";
 import { FaFacebook, FaFacebookF, FaFeatherAlt, FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import LogoWhite from '../images/logo-white.png';
+import { jumpToPage } from "./Hooks/utils";
 
 const Footer = () => {
+    const handleClick = (event: any, id: string) => {
+        jumpToPage(id);
+    };
+
     return <footer>
     <div className="footer-container text-center text-md-left">
     <div className="footer-top bt0">
@@ -33,10 +38,13 @@ const Footer = () => {
                     <div className="widget footer_widget">
                         <h5 className="footer-title">Quick Links</h5>
                         <div><a href="#">Home</a></div>
-                        <div><Link to="about-1">About Us</Link></div>
-                        <div><Link to="company-history">Recent Work</Link></div>
-                        <div><Link to="projects-single-1">Services</Link></div>
-                        <div><Link to="case-study">Contact Us</Link></div>
+                        <div><Link to="#" onClick={(e) => handleClick(e, 'aboutUs')}>About Us</Link>
+                        </div>
+                        <div><Link to="#" onClick={(e) => handleClick(e, 'recent')}>Recent Work</Link>
+                        </div>
+                        <div><Link to="#" onClick={(e) => handleClick(e, 'services')}>Services</Link>
+                        </div>
+                        <div><Link to="#" className="btn radius-sm" onClick={(e) => handleClick(e, 'contact')}>Contact Us</Link></div>
                     </div>
                 </div>
             </div>
