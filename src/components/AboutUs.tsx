@@ -15,7 +15,7 @@ const UVP = () => {
             respectful, and treat your house like their own. </p>
             <p>Whether you're looking to hire a commercial contractor or a local residential professional to install 
             your stone fireplace or repair your chimney, contact our masonry experts today to discuss your next project.</p>
-            <a href="#" className="btn radius-sm" onClick={handleClick}>Contact Us</a>
+            <a href="#" className="btn radius-sm mb-3" onClick={handleClick}>Contact Us</a>
         </div>
         <div className="row justify-content-center">
             <div className="uvp-card col-md-5 col-sm-12 pt-sm-3">

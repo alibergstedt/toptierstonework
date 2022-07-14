@@ -6,9 +6,15 @@
     position: relative;
     height: 70vh;
     width: 100wv;
-    background-attachment: fixed;
     background-repeat: no-repeat no-repeat;
 }
+
+// Largedevices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .hero-img {
+        background-attachment: fixed;
+    }
+  }
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.70);
