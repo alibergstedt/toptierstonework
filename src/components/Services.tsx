@@ -11,7 +11,7 @@ const Services = () => {
     return <div className='services-box p-md-5 mb-md-4' id='services'>
         <div className='outline'>Services</div>
         <h3 className="mb-0">Our Services</h3>
-        <p className="m-auto p-3 pb-md-5 w-md-75">Top Tier is proud to offer full masonry services
+        <p className="m-auto p-3 pb-md-5 w-md-75">Top Tier is proud to offer full stone services
         to our customers.  Click on each service to learn a little more about what we offer and the benefits of maintaining
         your beautiful brick and stonework.</p>
         <Tab.Container id="left-tabs-example" defaultActiveKey="one">
@@ -42,7 +42,7 @@ const Services = () => {
                         <div className='col-lg-7 col-md-12'>
                             <h3>Stone Installation</h3>
                             <p>We specialize in stonework.  It's in our name.  If you're
-                                looking to install a custom fireplace or hang cultured stone veneer
+                                looking to add stone to your fireplace or hang cultured stone veneer
                                 on the exterior of your home, we have the tools and expertise to 
                                 make it happen.
                             </p>
@@ -109,7 +109,7 @@ const Services = () => {
                 <Tab.Pane eventKey="five" className='ms-2'>
                     <div className='row'>
                         <div className='col-lg-7 col-md-12'>
-                            <h3>Have a masonry project?</h3>
+                            <h3>Have a stone project?</h3>
                             <p>Don't see your project in our available services? That's okay, Top Tier offers 
                                 full masonry services beyond what you see here.  Give us a call
                                 to discuss your project needs.

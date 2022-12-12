@@ -22,7 +22,7 @@ const UVP = () => {
                 <div><FaAward size={42} className="m-3" /></div>
                 <div>
                     <h5>Top Tier Professionals</h5>
-                    <p>Licensed and bonded quality masonry experts</p>
+                    <p>Licensed and bonded quality stone experts</p>
                 </div>
             </div>
             <div className="uvp-card col-md-5 col-sm-12">
